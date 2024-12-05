@@ -2,7 +2,7 @@
   "name": "personal-protfoli",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<dimly>.github.io/<personal-protfolio>",
+  "homepage": "https://dimlyy.github.io/personal-portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.0",
     "@fortawesome/free-brands-svg-icons": "^6.5.0",
