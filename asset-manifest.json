@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.7b79a7c3.css",
-    "main.js": "/personal-portfolio/static/js/main.9425760d.js",
+    "main.js": "/personal-portfolio/static/js/main.ba975f1f.js",
     "static/js/453.2bf61720.chunk.js": "/personal-portfolio/static/js/453.2bf61720.chunk.js",
     "static/media/profile.jpg": "/personal-portfolio/static/media/profile.69e636183451d18cf015.jpg",
     "static/media/TikTokDisplayFont-Bold.woff2": "/personal-portfolio/static/media/TikTokDisplayFont-Bold.b191c0620e8c9617ea10.woff2",
@@ -10,11 +10,11 @@
     "static/media/TikTokFont-Regular.woff2": "/personal-portfolio/static/media/TikTokFont-Regular.0ca75da985ad7821cbde.woff2",
     "index.html": "/personal-portfolio/index.html",
     "main.7b79a7c3.css.map": "/personal-portfolio/static/css/main.7b79a7c3.css.map",
-    "main.9425760d.js.map": "/personal-portfolio/static/js/main.9425760d.js.map",
+    "main.ba975f1f.js.map": "/personal-portfolio/static/js/main.ba975f1f.js.map",
     "453.2bf61720.chunk.js.map": "/personal-portfolio/static/js/453.2bf61720.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b79a7c3.css",
-    "static/js/main.9425760d.js"
+    "static/js/main.ba975f1f.js"
   ]
 }
