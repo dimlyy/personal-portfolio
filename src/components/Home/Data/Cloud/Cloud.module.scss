@@ -1,0 +1,161 @@
+.center {
+    position: relative;
+    top: 30%;
+    right: 0%;
+    transform: translateY(-50%, 50%);
+}
+.Cloud {
+    z-index: 2; 
+    position: relative; 
+    width: 90px;
+    height: 30px;
+    border-radius: 50px;
+    background: linear-gradient(white, rgba(255, 255, 255, 0.8));
+    animation: move 8s linear infinite;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.4);
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: -26px;
+        left: 36px;
+        background: linear-gradient(white, rgba(255, 255, 255, 0.8));
+        width: 40px;
+        height: 38px;
+        border-radius: 50%;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: -18px;
+        right: 40px;
+        background: linear-gradient(white, rgba(255, 255, 255, 0.8));
+        height: 35px;
+        width: 40px;
+        border-radius: 50%;
+    }
+}
+
+
+.Sun {
+    position: absolute;
+    top: -47px;
+    left: 50px;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ffe208;
+    box-shadow: 0 0 15px rgba( 255, 255, 8 , .5);
+    z-index: 1;
+    animation: animate 20s linear infinite;
+
+    li {
+        list-style: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,  50%);
+        width: 75px;
+        height: 3px;
+        background: #ffe208;
+        border-radius: 50%;
+
+        &:nth-child(2){
+            transform: translate(-50%, -50%) rotate(90deg);
+        }
+
+        &:nth-child(3) {
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+
+        &:nth-child(4) {
+            transform: translate(-50%, -50%) rotate(-45deg);
+        }
+
+        &:nth-child(5) {
+            transform: translate(-50%, -50%) rotate(22.5deg);
+        }
+        
+        &:nth-child(6) {
+            transform: translate(-50%, -50%) rotate(-22.5deg);
+        }
+
+        &:nth-child(7) {
+            transform: translate(-50%, -50%) rotate(67.5deg);
+        }
+
+        &:nth-child(8) {
+            transform: translate(-50%, -50%) rotate(-67.5deg);
+        }
+    }
+}
+
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg); /* Optional: complete the rotation */
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(50px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .center{
+        top: 25%;
+        right: 47%;
+    }
+
+    .Cloud {
+        width: 75px;
+        height: 20px;
+
+        &::after{
+            right: 36px;
+            height: 30px;
+            width: 30px;
+        }
+
+        &::before{
+            left: 27px;
+            width: 40px;
+            height: 38px;
+        }
+    }
+
+    @keyframes move {
+        0% {
+            transform: translate(0);
+        }
+
+        50% {
+            transform: translate(15px); /* Di chuyển ngắn hơn */
+        }
+
+        100% {
+            transform: translate(0);
+        }
+    }
+}   
