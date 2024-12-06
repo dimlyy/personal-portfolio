@@ -3,28 +3,25 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import Home from "./components/Home";
-import { useState } from "react";
 import About from "./components/About";
 import Skills from "./components/Skills/Skills";
+import Services from "./components/Services";
+import Qualification from "./components/Qualification";
+import Portfolio from "./components/Portfolio";
 
 function App() {
-  const [darkTheme, setDarkTheme] = useState(false);
-
-  const onClick = () => {
-    setDarkTheme(!darkTheme);
-  }
-
   return (
-      <div data-theme={darkTheme && 'dark'}>
         <Router>
           <Header />
           <main className="main">
             <Home />
             <About />
             <Skills />
+            <Services/>
+            <Qualification/>
+            <Portfolio/>
           </main>
         </Router>
-      </div>
   )
 }
 
