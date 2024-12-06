@@ -23,7 +23,7 @@ function FrontEnd() {
 
                         <div>
                             <h3 className={cx('skills__name')}>CSS</h3>
-                            <span className={cx('skill__level')}>Advance</span>
+                            <span className={cx('skills__level')}>Advance</span>
                         </div>
                     </div>
 
@@ -32,7 +32,7 @@ function FrontEnd() {
 
                         <div>
                             <h3 className={cx('skills__name')}>JavaScript</h3>
-                            <span className={cx('skill__level')}>Intermediate</span>
+                            <span className={cx('skills__level')}>Intermediate</span>
                         </div>
                     </div>
                 </div>

@@ -23,7 +23,7 @@ function BackEnd() {
 
                     <div>
                         <h3 className={cx('skills__name')}>NODEJS</h3>
-                        <span className={cx('skill__level')}>Basic</span>
+                        <span className={cx('skills__level')}>Basic</span>
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@ function BackEnd() {
                     </div>
                 </div>
 
-                <div className={cx('skill__data')}>
+                <div className={cx('skills__data')}>
                     <i className={cx('bx', 'bx-badge-check', 'skills__icon')}/>
 
                     <div>

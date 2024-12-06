@@ -23,7 +23,7 @@ function Services() {
 
                     <span className={cx('services__button')}
                     onClick={() => setToggleState(1)}
-                    >View More
+                    >Xem thêm
                     <i className={cx('uil', 'uil-arrow-right', 'services__button-icon')} />
                     </span>
 
@@ -87,7 +87,7 @@ function Services() {
 
                 <span className={cx('services__button')}
                 onClick={()=> setToggleState(2)}
-                >View More
+                >Xem thêm
                     <i className={cx('uil', 'uil-arrow-right', 'services__button-icon')} />
                 </span>
 
@@ -153,7 +153,7 @@ function Services() {
 
                 <span
                 onClick={()=> setToggleState(3)}
-                className={cx('services__button')}>View More
+                className={cx('services__button')}>Xem thêm
                     <i className={cx('uil', 'uil-arrow-right', 'services__button-icon')} />
                 </span>
 
