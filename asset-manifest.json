@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.efc179f5.css",
+    "main.css": "/personal-portfolio/static/css/main.30f96f11.css",
     "main.js": "/personal-portfolio/static/js/main.66eec659.js",
     "static/css/627.388405d3.chunk.css": "/personal-portfolio/static/css/627.388405d3.chunk.css",
     "static/js/627.7c48b1b0.chunk.js": "/personal-portfolio/static/js/627.7c48b1b0.chunk.js",
@@ -27,7 +27,7 @@
     "static/media/TikTokFont-Semibold.woff2": "/personal-portfolio/static/media/TikTokFont-Semibold.0a3262809350126554ad.woff2",
     "static/media/TikTokFont-Regular.woff2": "/personal-portfolio/static/media/TikTokFont-Regular.0ca75da985ad7821cbde.woff2",
     "index.html": "/personal-portfolio/index.html",
-    "main.efc179f5.css.map": "/personal-portfolio/static/css/main.efc179f5.css.map",
+    "main.30f96f11.css.map": "/personal-portfolio/static/css/main.30f96f11.css.map",
     "main.66eec659.js.map": "/personal-portfolio/static/js/main.66eec659.js.map",
     "627.388405d3.chunk.css.map": "/personal-portfolio/static/css/627.388405d3.chunk.css.map",
     "627.7c48b1b0.chunk.js.map": "/personal-portfolio/static/js/627.7c48b1b0.chunk.js.map",
@@ -50,7 +50,7 @@
     "453.2bf61720.chunk.js.map": "/personal-portfolio/static/js/453.2bf61720.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efc179f5.css",
+    "static/css/main.30f96f11.css",
     "static/js/main.66eec659.js"
   ]
 }
