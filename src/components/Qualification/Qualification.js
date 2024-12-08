@@ -36,7 +36,7 @@ function Qualification() {
                                 <span className={cx('qualification__subtitle')}>Việt Nam 
                                     Học vấn
                                 </span>
-                                <div className={cx('qualification__calender')}>
+                                <div className={cx('qualification__calendar')}>
                                     <i className={cx('uil', 'uil-calendar-alt')}></i>
                                     2024 - Hiện tại
                                 </div>
@@ -61,7 +61,7 @@ function Qualification() {
                                 <span className={cx('qualification__subtitle')}>Việt Nam 
                                     Học vấn
                                 </span>
-                                <div className={cx('qualification__calender')}>
+                                <div className={cx('qualification__calendar')}>
                                     <i className={cx('uil', 'uil-calendar-alt')}></i>
                                     2024 - Hiện tại
                                 </div>
@@ -74,7 +74,7 @@ function Qualification() {
                                 <span className={cx('qualification__subtitle')}>Việt Nam 
                                     Học vấn
                                 </span>
-                                <div className={cx('qualification__calender')}>
+                                <div className={cx('qualification__calendar')}>
                                     <i className={cx('uil', 'uil-calendar-alt')}></i>
                                     2024 - Hiện tại
                                 </div>
@@ -115,7 +115,7 @@ function Qualification() {
                                 <span className={cx('qualification__subtitle')}>Việt Nam 
                                     Học vấn
                                 </span>
-                                <div className={cx('qualification__calender')}>
+                                <div className={cx('qualification__calendar')}>
                                     <i className={cx('uil', 'uil-calendar-alt')}></i>
                                     2024 - Hiện tại
                                 </div>
@@ -141,7 +141,7 @@ function Qualification() {
                                 <span className={cx('qualification__subtitle')}>Việt Nam 
                                     Học vấn
                                 </span>
-                                <div className={cx('qualification__calender')}>
+                                <div className={cx('qualification__calendar')}>
                                     <i className={cx('uil', 'uil-calendar-alt')}></i>
                                     2024 - Hiện tại
                                 </div>
@@ -154,7 +154,7 @@ function Qualification() {
                                 <span className={cx('qualification__subtitle')}>Việt Nam 
                                     Học vấn
                                 </span>
-                                <div className={cx('qualification__calender')}>
+                                <div className={cx('qualification__calendar')}>
                                     <i className={cx('uil', 'uil-calendar-alt')}></i>
                                     2024 - Hiện tại
                                 </div>

@@ -1,6 +1,6 @@
 .footer {
     background-color: var(--container-color);
-    border-top: 1px solid rgba(0, 0 , 0, 0.1);
+    border-top: 1px solid var(--border-color)
 }
 
 .footer__container {
@@ -28,7 +28,7 @@
     background-color: var(--title-color);
     padding: 0.5rem 1rem;
     border-radius: 0.4rem;
-    border: 1px solid rgba(0, 0 , 0, 0.1);
+    border: 1px solid var(--border-color);
 
     &:hover{
         color: var(--title-color-dark);

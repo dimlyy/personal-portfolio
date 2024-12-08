@@ -1,3 +1,7 @@
+.about {
+    background-color: var(--body-color);
+}
+
 .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -35,7 +39,7 @@
 
 .about__box {
     background-color: var(--container-color);
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid var(--border-color);
     border-radius: 1.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
@@ -54,6 +58,7 @@
 
 .about__subtitle {
     font-size: var(--tiny-font-size);
+    color: var(--text-color);
 }
 
 .about__description {
@@ -61,6 +66,7 @@
     font-size: var(--font-medium);
     text-align: justify;
     padding: 0 4rem 0 0;
+    color: var(--text-color);
 }
 
 // ================ BREAKPOINT ================

@@ -1,4 +1,6 @@
 .qualification{
+    background-color: var(--body-color);
+
     .qualification__container {
         max-width: 768px;
         min-height: 425px;
@@ -64,6 +66,7 @@
 }
 
 .qualification__title {
+    margin-bottom: var(--mb-0-5);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
@@ -71,10 +74,12 @@
 .qualification__subtitle {
     display: inline-block;
     font-size: (--small-font-size);
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-0-5);
+    color: var(--text-color);
 }
 
 .qualification__calendar {
+    color: var(--text-color);
     display: block;
     font-size: var(--small-font-size);
 }

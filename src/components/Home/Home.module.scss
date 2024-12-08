@@ -1,3 +1,7 @@
+.home {
+    background-color: var(--body-color);
+}
+
 .home__container {
     row-gap: 7rem;
 }
@@ -81,6 +85,7 @@
 .home__description {
     max-width: 400px;
     margin-bottom: var(--mb-3);
+    color: var(--text-color);
 }
 
 .home__img {
@@ -95,6 +100,10 @@
     height: 300px;
     animation: profile__animate-border 8s ease-in-out infinite;
     transition: opacity 0.5s ease;
+}
+
+.home__scroll-mouse{
+    color: var(--title-color);
 }
 
 @keyframes profile__animate-border {

@@ -5,7 +5,6 @@ import classNames from 'classnames/bind';
 const cx = classNames.bind(styles);
 
 function ScrollUp() {
-    const scrollUpRef = useRef();
     const [isVisible, setIsVisible] = useState(false);
 
     const handleScroll = () => {
@@ -26,7 +25,6 @@ function ScrollUp() {
 
     return (
         <a 
-            ref={scrollUpRef} 
             href="#" 
             className={cx('scrollup', { 'show-scroll': isVisible })}
         >

@@ -4,6 +4,8 @@
     inherits: false;
 }
 .Portfolio {
+    background-color: var(--body-color);
+
     .app__work-filter {
         max-width: none;
         display: flex;
@@ -14,10 +16,11 @@
         margin:0 2rem;
     
         .app__work-filter-item {
+            border: 1px solid var(--border-color);
             padding: 0.5rem 1rem;
             border-radius: 0.5rem;
-            background-color: #fff;
-            color: #000;
+            background-color: var(--container-color);
+            color: var(--text-color);
             font-weight: 800;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -67,15 +70,13 @@
         position: relative;
         width: 270px;
         flex-direction: column;
-        border: 1px solid rgba(0, 0, 0, 0.1);
         margin: 2rem;
         padding: 1rem;
         border-radius: 0.5rem;
-        background-color: #fff;
+        background-color: var(--container-color);
         color: #000;
         cursor: pointer;
         transition: all 0.3s ease;
-    
         &:hover {
         box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
         }
@@ -196,10 +197,9 @@
     
     .app__work-tag {
         position: absolute;
-    
         padding: 0.5rem 1rem;
         border-radius: 10px;
-        background-color: #fff;
+        background-color: var(--container-color);
         top: -25px;
     }
     }    

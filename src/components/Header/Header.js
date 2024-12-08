@@ -5,7 +5,7 @@ import classNames from "classnames/bind";
 
 const cx = classNames.bind(styles);
 
-function Header() {
+function Header({theme, toggleTheme}) {
   // Toggle Menu
   const [Toggle, showMenu] = useState(false);
 
@@ -39,26 +39,36 @@ function Header() {
         <NavLink to="#home" className={cx("nav__logo")}>
           Trần Ánh Dương
         </NavLink>
-        <div className={cx("nav__menu", {'show-menu': Toggle})}>
-          <ul className={cx("grid", "nav__list")}>
-            {headerSection.map((item, index) => (
-              <li key={index} className={cx("nav__item")}>
-                <a
-                  href={item.to}
-                  className={cx("nav__link", {
-                    active: activeHash === item.to,
-                  })}
-                >
-                  <i className={cx("uil", item.icon, "nav__icon")}></i>
-                  {item.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-          <i onClick={()=> showMenu(!Toggle)} className={cx("uil", "uil-times", "nav__close")} />
-        </div>
-        <div onClick={() => showMenu(!Toggle)} className={cx("nav__toggle")}>
-          <i className={cx("uil", "uil-apps")}></i>
+        <div className={cx('nav__container')}>
+          <div className={cx('nav__theme')}
+            onClick={() => toggleTheme()}
+          >
+            {theme ? (<i className={cx('uil', 'uil-sun')}></i>) :
+            (
+              <i className={cx('uil', 'uil-moon')}></i>
+            )}
+          </div>
+          <div className={cx("nav__menu", {'show-menu': Toggle})}>
+            <ul className={cx("grid", "nav__list")}>
+              {headerSection.map((item, index) => (
+                <li key={index} className={cx("nav__item")}>
+                  <a
+                    href={item.to}
+                    className={cx("nav__link", {
+                      active: activeHash === item.to,
+                    })}
+                  >
+                    <i className={cx("uil", item.icon, "nav__icon")}></i>
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <i onClick={()=> showMenu(!Toggle)} className={cx("uil", "uil-times", "nav__close")} />
+          </div>
+          <div onClick={() => showMenu(!Toggle)} className={cx("nav__toggle")}>
+            <i className={cx("uil", "uil-apps")}></i>
+          </div>
         </div>
       </nav>
     </header>
