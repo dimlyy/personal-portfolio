@@ -11,11 +11,11 @@ function Header() {
 
   const headerSection = [
     { to: "#home", icon: "uil-estate", label: "Home" },
-    { to: "#about", icon: "uil-user", label: "About" },
-    { to: "#skills", icon: "uil-file-alt", label: "Skills" },
-    { to: "#services", icon: "uil-briefcase-alt", label: "Services" },
-    { to: "#portfolio", icon: "uil-scenery", label: "Portfolio" },
-    { to: "#contact", icon: "uil-message", label: "Contact" },
+    { to: "#about", icon: "uil-user", label: "Tóm tắt" },
+    { to: "#skills", icon: "uil-file-alt", label: "Kĩ năng" },
+    { to: "#services", icon: "uil-briefcase-alt", label: "Dịch vụ" },
+    { to: "#portfolio", icon: "uil-scenery", label: "Sản phẩm" },
+    { to: "#contact", icon: "uil-message", label: "Liên hệ" },
   ]
 
   const [activeHash, setActiveHash] = useState("");

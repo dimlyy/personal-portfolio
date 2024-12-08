@@ -17,14 +17,14 @@ function Qualification() {
                     onClick={() => setToggleState(1)}
                     className={cx('qualification__button', 'button--flex', {'active': toggleState === 1} )}>
                         <i className={cx('uil', 'uil-graduation-cap', 'qualification__icon')}></i>
-                        Education
+                        Học vấn
                     </div>
 
                     <div
                     onClick={() => setToggleState(2)}
                     className={cx('qualification__button', 'button--flex', {'active': toggleState === 2})}>
                         <i className={cx('uil', 'uil-briefcase-alt', 'qualification__icon')}></i>
-                        Experience
+                        Kinh nghiệm
                     </div>
                 </div>
 

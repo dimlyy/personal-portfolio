@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: var(--mb-2);
+
 }
 
 .qualification__button {
@@ -16,6 +17,7 @@
     font-weight: var(--font-medium);
     color: var(--title-color);
     margin: 0 var(--mb-1);
+    padding: 0 0.75rem;
     cursor: pointer;
     user-select: none;
 
@@ -24,7 +26,9 @@
     }
 
     &.active {  
-        color: var(--title-color-dark);
+        background-color: var(--title-color);
+        color: var(--container-color);
+        border-radius: 0.4rem;
     }
 }
 

@@ -5,7 +5,7 @@ const cx = classNames.bind(styles);
 
 function Footer() {
     return (
-        <footer className={cx('footer')}>
+        <footer id='contact' className={cx('footer')}>
             <div className={cx('footer__container', 'container')}>
                 <h1 className={cx('footer__title')}>Trần Ánh Dương</h1>
 
@@ -19,7 +19,7 @@ function Footer() {
                     </li>
 
                     <li>
-                        <a href="#portfolio" className={cx('footer__link')}>Sản phảm</a>
+                        <a href="#portfolio" className={cx('footer__link')}>Sản phẩm</a>
                     </li>
                 </ul>
 
