@@ -305,3 +305,10 @@ html *::-webkit-scrollbar-track {
 }
 
 // Media
+
+@media (max-width: 768px) {
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+}
