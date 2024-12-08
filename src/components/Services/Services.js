@@ -11,7 +11,6 @@ function Services() {
     return ( 
         <section id='services' className={cx('services', 'section')}>
             <h2 className={cx('section__title')}>Dịch vụ cung cấp</h2>
-            <span className={cx('section__subtitle')}>Những gì tôi có thẻ mang lại cho bạn</span>
 
             <div className={cx('services__container', 'container', 'grid')}>
                 <div className={cx('services__content')}>

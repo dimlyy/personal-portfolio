@@ -9,19 +9,30 @@ const cx = classNames.bind(styles);
 function About() {
     return (
         <section id="about" className={cx('section', 'about')}>
-            <h2 className={cx('section__title')}>Thông tin về tôi</h2>
-            <span className={cx('section__subtitle')}>Dimlyyy nèeeeee</span>
+            <h2 className={cx('section__title')}>Tóm tắt bản thân</h2>
 
             <div className={cx('about__container', 'container', 'grid')}>
-                <img src={AboutImg} className={cx('about__img')}/>
+                <div className={cx('about__data-img')}>
+                    <img src={AboutImg} className={cx('about__img')}/>
+                    <Info/>
+                </div>
 
                 <div className={cx('about__data')}>
-                    <Info/>
 
-                    <p className={cx('about__description')}>Tôi đang theo học ngành
-                    Khoa Học Máy Tính tại đại học Công Nghiệp TP.HCM. Tôi có thể tạo ra 
-                    những trang web .....
+                    <p className={cx('about__description')}>Tôi là một sinh viên năm cuối ngành Khoa Học Máy Tính, đam mê khám phá và phát triển công nghệ. Tôi luôn cảm thấy hứng thú với việc tìm hiểu những công nghệ mới,
+                        từ trí tuệ nhân tạo đến phát triển ứng dụng.
+                        Tôi không chỉ muốn hiểu rõ về lý thuyết mà còn mong muốn áp dụng chúng vào thực tiễn để tạo ra những sản phẩm có giá trị.
                     </p>
+
+                    <p className={cx('about__description')}> Qua các dự án cá nhân và nhóm, tôi đã học được cách giải quyết vấn đề,
+                         làm việc dưới áp lực và phát triển tư duy sáng tạo. Tôi luôn nỗ lực không ngừng để cập nhật kiến thức mới, cải tiến kỹ năng và đóng góp vào sự thành công của các dự án mà tôi tham gia.
+                    </p>
+
+                    <p className={cx('about__description')}>Với mục tiêu không ngừng nâng cao bản thân và đạt được những thành công nổi bật trong lĩnh vực công nghệ, tôi khao khát tìm kiếm cơ hội làm việc trong một môi trường đầy năng lượng và thách thức. Tại đây, tôi hy vọng có thể phát huy hết tiềm năng của mình và đóng góp vào
+                         việc phát triển những sản phẩm phần mềm xuất sắc.
+                    </p>
+
+
 
                     <a download="" href='#' className={cx('button', 'button--flex')}>
                         CV của tôi

@@ -8,19 +8,25 @@ import Skills from "./components/Skills/Skills";
 import Services from "./components/Services";
 import Qualification from "./components/Qualification";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
+import ScrollUp from "./components/ScrollUp";
 
 function App() {
   return (
         <Router>
           <Header />
+          
           <main className="main">
             <Home />
             <About />
             <Skills />
             <Services/>
-            <Qualification/>
             <Portfolio/>
+            <Qualification/>
           </main>
+
+          <Footer/>
+          <ScrollUp/>
         </Router>
   )
 }

@@ -9,7 +9,7 @@ function Info() {
             <div className={cx('about__box')}>
                 <i className={cx('bx', 'bx-award','about__icon')}></i>
                 <h3 className={cx('about__title')}>Kinh nghiệm</h3>
-                <span className={cx('about__subtitle')}>2+ Years Study</span>
+                <span className={cx('about__subtitle')}>4+ Years Study</span>
             </div>
 
             <div className={cx('about__box')}>

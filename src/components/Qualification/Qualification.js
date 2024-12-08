@@ -10,7 +10,6 @@ function Qualification() {
     return ( 
         <section className={cx('qualification', 'section')}>
              <h2 className={cx('section__title')}>Khả năng chuyên môn</h2>
-             <span className={cx('section__subtitle')}>Kinh nghiệm cá nhân</span>
 
              <div className={cx('container', 'qualification__container')}>
                 <div className={cx('qualification__tabs')}>

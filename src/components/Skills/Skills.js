@@ -8,7 +8,6 @@ function Skills() {
     return ( 
         <section id="skills" className={cx('skills', 'section')}>
             <h2 className={cx('section__title')}>Kĩ năng</h2>
-            <span className={cx('section__subtitle')}>Trình độ của tôi </span>
             <div className={cx('skills__container', 'container', 'grid')}>
                 <FrontEnd/>
                 <BackEnd/>
