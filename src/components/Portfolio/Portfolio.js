@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import styles from './Portfolio.module.scss';
 import classNames from 'classnames/bind';
-import proJectImg1 from '../../assets/img/profile.jpg';
+import proJectImg1 from '../../assets/img/project-1.jpg';
+import proJectImg2 from '../../assets/img/project-2.jpg';
+import proJectImg3 from '../../assets/img/project-3.jpg';
 
 const cx = classNames.bind(styles);
 
@@ -10,17 +12,25 @@ const worksData = [
         title: 'Sản phẩm 1',
         description: 'Description for project 1',
         imgUrl: proJectImg1,
-        projectLink: 'https://project1.com',
+        projectLink: 'https://vrtechvn.com/',
         codeLink: 'https://github.com/user/project1',
-        tags: ['UI/UX', 'Trang 1'],
+        tags: ['Web App', 'Trang 1'],
     },
     {
         title: 'Sản phẩm 2',
         description: 'Description for project 2',
-        imgUrl: 'path/to/image2.jpg',
-        projectLink: 'https://project2.com',
+        imgUrl: proJectImg2,
+        projectLink: 'https://vrtechvn.xyz/',
         codeLink: 'https://github.com/user/project2',
-        tags: ['Mobile App', 'Trang 2'],
+        tags: ['Web App', 'Trang 1'],
+    },
+    {
+        title: 'Sản phẩm 3',
+        description: 'Description for project 2',
+        imgUrl: proJectImg3,
+        projectLink: 'http://nubesnails.com/',
+        codeLink: 'https://github.com/user/project2',
+        tags: ['Web App', 'Trang 2'],
     },
 ];
 

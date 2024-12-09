@@ -13,8 +13,8 @@ function BackEnd() {
                     <i className={cx('bx', 'bx-badge-check', 'skills__icon')}/>
 
                     <div>
-                        <h3 className={cx('skills__name')}>PHP</h3>
-                        <span className={cx('skills__level')}>Intermediate</span>
+                        <h3 className={cx('skills__name')}>Git</h3>
+                        <span className={cx('skills__level')}>Advance</span>
                     </div>
                 </div>
 
@@ -23,7 +23,7 @@ function BackEnd() {
 
                     <div>
                         <h3 className={cx('skills__name')}>NodeJS</h3>
-                        <span className={cx('skills__level')}>Basic</span>
+                        <span className={cx('skills__level')}>Advance</span>
                     </div>
                 </div>
 
@@ -43,7 +43,7 @@ function BackEnd() {
 
                     <div>
                         <h3 className={cx('skills__name')}>MySql</h3>
-                        <span className={cx('skills__level')}>Intermediate</span>
+                        <span className={cx('skills__level')}>Advance</span>
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@ function BackEnd() {
 
                     <div>
                         <h3 className={cx('skills__name')}>Sql Server</h3>
-                        <span className={cx('skills__level')}>Basic</span>
+                        <span className={cx('skills__level')}>Advance</span>
                     </div>
                 </div>
             
@@ -61,7 +61,7 @@ function BackEnd() {
 
                     <div>
                         <h3 className={cx('skills__name')}>FireBase</h3>
-                        <span className={cx('skills__level')}>Intermediate</span>
+                        <span className={cx('skills__level')}>Basic</span>
                     </div>
                 </div>
             </div>

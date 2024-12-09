@@ -16,7 +16,7 @@ function Services() {
                 <div className={cx('services__content')}>
                     <div>
                         <i className={cx('uil', 'uil-web-grid', 'services__icon')}/>
-                        <h3 className={cx('services__title')}>Sản phẩm <br></br> Thiết kế</h3>
+                        <h3 className={cx('services__title')}>Website <br></br> Thiết kế</h3>
                     </div>
                 
 
@@ -32,9 +32,7 @@ function Services() {
                             onClick={() => setToggleState(0)}>
                         </i>
                         <h3 className={cx('services__modal-title')}>Sản phẩm</h3> 
-                        <p className={cx('services__modal-description')}>2 năm kinh nghiệm 
-                            thực chiến với khách hàng
-                        </p>                   
+                
 
                         <ul className={cx('services__modal-services', 'grid')}>
                             <li className={cx('services__modal-service')}>
@@ -47,14 +45,14 @@ function Services() {
                             <li className={cx('services__modal-service')}>
                                 <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
                                 <p className={cx('services__modal-info')}>
-                                    Tôi có thể lập trình giao diện web.
+                                    Cải thiện hiệu suất và trải nghiệm người dùng
                                 </p>
                             </li>
 
                             <li className={cx('services__modal-service')}>
                                 <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
                                 <p className={cx('services__modal-info')}>
-                                    Tôi có thể lập trình ra tương tác người dùng web.
+                                    Lập trình tương tác người dùng web.
                                 </p>
                             </li>
 
@@ -68,7 +66,7 @@ function Services() {
                             <li className={cx('services__modal-service')}>
                                 <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
                                 <p className={cx('services__modal-info')}>
-                                    Tôi có thể design những mẫu giao diện hiện đại nhất.
+                                    Thiết kế giao diện hiện đại và responsive.
                                 </p>
                             </li>
                             </ul>
@@ -95,46 +93,51 @@ function Services() {
                         <i
                         onClick={()=>setToggleState(0)}
                         className={cx('uil', 'uil-times', 'services__modal-close')}></i>
-                        <h3 className={cx('services__modal-title')}>UI/UX Designer</h3> 
-                        <p className={cx('services__modal-description')}>2 năm kinh nghiệm 
-                            thực chiến với khách hàng
-                        </p>                   
+                        <h3 className={cx('services__modal-title')}>UI/UX Designer</h3>          
 
                         <ul className={cx('services__modal-services', 'grid')}>
-                            <li className={cx('services__modal-service')}>
-                                <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
-                                <p className={cx('services__modal-info')}>
-                                    Tôi có thể lập trình ra giao diện cho người dùng.
-                                </p>
-                            </li>
-
-                            <li className={cx('services__modal-service')}>
-                                <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
-                                <p className={cx('services__modal-info')}>
-                                    Tôi có thể lập trình giao diện web.
-                                </p>
-                            </li>
-
-                            <li className={cx('services__modal-service')}>
-                                <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
-                                <p className={cx('services__modal-info')}>
-                                    Tôi có thể lập trình ra tương tác người dùng web.
-                                </p>
-                            </li>
-
-                            <li className={cx('services__modal-service')}>
-                                <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
-                                <p className={cx('services__modal-info')}>
-                                    Tôi có thể tạo ra thương hiệu cho brand của bạn.
-                                </p>
-                            </li>
-
                             <li className={cx('services__modal-service')}>
                                 <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
                                 <p className={cx('services__modal-info')}>
                                     Tôi có thể design những mẫu giao diện hiện đại nhất.
                                 </p>
                             </li>
+                            <li className={cx('services__modal-service')}>
+                                <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
+                                <p className={cx('services__modal-info')}>
+                                    Tôi có thể tối ưu hóa giao diện.
+                                </p>
+                            </li>
+
+                            <li className={cx('services__modal-service')}>
+                                <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
+                                <p className={cx('services__modal-info')}>
+                                    Tăng trải nghiệm người dùng.
+                                </p>
+                            </li>
+
+                            <li className={cx('services__modal-service')}>
+                                <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
+                                <p className={cx('services__modal-info')}>
+                                    Định hướng theo thói quen người dùng.
+                                </p>
+                            </li>
+
+                            <li className={cx('services__modal-service')}>
+                                <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
+                                <p className={cx('services__modal-info')}>
+                                    Khả năng tùy chỉnh và mở rộng.
+                                </p>
+                            </li>
+
+                            <li className={cx('services__modal-service')}>
+                                <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
+                                <p className={cx('services__modal-info')}>
+                                    Cải thiện thương hiệu và giá trị.
+                                </p>
+                            </li>
+
+                            
                             </ul>
                         </div>
                     
@@ -161,30 +164,27 @@ function Services() {
                         <i
                         onClick={()=>setToggleState(0)}
                         className={cx('uil', 'uil-times', 'services__modal-close')}></i>
-                        <h3 className={cx('services__modal-title')}>Visual Designer</h3> 
-                        <p className={cx('services__modal-description')}>2 năm kinh nghiệm 
-                            thực chiến với khách hàng
-                        </p>                   
+                        <h3 className={cx('services__modal-title')}>Visual Designer</h3>           
 
                         <ul className={cx('services__modal-services', 'grid')}>
                             <li className={cx('services__modal-service')}>
                                 <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
                                 <p className={cx('services__modal-info')}>
-                                    Tôi có thể lập trình ra giao diện cho người dùng.
+                                    Xây dựng hệ thống nhận diện trực quan.
                                 </p>
                             </li>
 
                             <li className={cx('services__modal-service')}>
                                 <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
                                 <p className={cx('services__modal-info')}>
-                                    Tôi có thể lập trình giao diện web.
+                                    Tối ưu hóa trải nghiệm thị giác.
                                 </p>
                             </li>
 
                             <li className={cx('services__modal-service')}>
                                 <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
                                 <p className={cx('services__modal-info')}>
-                                    Tôi có thể lập trình ra tương tác người dùng web.
+                                    Tăng tính độc đáo.
                                 </p>
                             </li>
 
@@ -198,7 +198,7 @@ function Services() {
                             <li className={cx('services__modal-service')}>
                                 <i className={cx('uil', 'uil-check-circle', 'services__modal-icon')}/>
                                 <p className={cx('services__modal-info')}>
-                                    Tôi có thể design những mẫu giao diện hiện đại nhất.
+                                    Truyền tải thông điệp qua hình ảnh.
                                 </p>
                             </li>
                             </ul>

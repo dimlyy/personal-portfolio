@@ -102,7 +102,7 @@ html {
 
 
 body {
-
+  user-select: none;
   overflow-y: overlay;
   font-family: var(--body-family);
   line-height: 1.5;

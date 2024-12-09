@@ -14,15 +14,6 @@ function FrontEnd() {
 
                         <div>
                             <h3 className={cx('skills__name')}>HTML</h3>
-                            <span className={cx('skills__level')}>Basic</span>
-                        </div>
-                    </div>
-
-                    <div className={cx('skills__data')}>
-                        <i className={cx('bx', 'bx-badge-check', 'skills__icon')}/>
-
-                        <div>
-                            <h3 className={cx('skills__name')}>CSS</h3>
                             <span className={cx('skills__level')}>Advance</span>
                         </div>
                     </div>
@@ -31,8 +22,17 @@ function FrontEnd() {
                         <i className={cx('bx', 'bx-badge-check', 'skills__icon')}/>
 
                         <div>
-                            <h3 className={cx('skills__name')}>JavaScript</h3>
+                            <h3 className={cx('skills__name')}>CSS</h3>
                             <span className={cx('skills__level')}>Intermediate</span>
+                        </div>
+                    </div>
+
+                    <div className={cx('skills__data')}>
+                        <i className={cx('bx', 'bx-badge-check', 'skills__icon')}/>
+
+                        <div>
+                            <h3 className={cx('skills__name')}>JavaScript</h3>
+                            <span className={cx('skills__level')}>Advance</span>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ function FrontEnd() {
 
                         <div>
                             <h3 className={cx('skills__name')}>Bootsrap</h3>
-                            <span className={cx('skills__level')}>Intermediate</span>
+                            <span className={cx('skills__level')}>Advance</span>
                         </div>
                     </div>
 
@@ -51,8 +51,8 @@ function FrontEnd() {
                         <i className={cx('bx', 'bx-badge-check', 'skills__icon')}/>
 
                         <div>
-                            <h3 className={cx('skills__name')}>Git</h3>
-                            <span className={cx('skills__level')}>Intermediate</span>
+                            <h3 className={cx('skills__name')}>SCSS</h3>
+                            <span className={cx('skills__level')}>Advance</span>
                         </div>
                     </div>
                 
@@ -61,7 +61,7 @@ function FrontEnd() {
 
                         <div>
                             <h3 className={cx('skills__name')}>React</h3>
-                            <span className={cx('skills__level')}>Intermediate</span>
+                            <span className={cx('skills__level')}>Advance</span>
                         </div>
                     </div>
                 </div>
