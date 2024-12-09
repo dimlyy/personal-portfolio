@@ -7,26 +7,26 @@ const cx = classNames.bind(styles);
 
 const worksData = [
     {
-        title: 'Project 1',
+        title: 'Sản phẩm 1',
         description: 'Description for project 1',
         imgUrl: proJectImg1,
         projectLink: 'https://project1.com',
         codeLink: 'https://github.com/user/project1',
-        tags: ['UI/UX', 'Web App'],
+        tags: ['UI/UX', 'Trang 1'],
     },
     {
-        title: 'Project 2',
+        title: 'Sản phẩm 2',
         description: 'Description for project 2',
         imgUrl: 'path/to/image2.jpg',
         projectLink: 'https://project2.com',
         codeLink: 'https://github.com/user/project2',
-        tags: ['Mobile App', 'React JS'],
+        tags: ['Mobile App', 'Trang 2'],
     },
 ];
 
 function Portfolio() {
     const [filterWork, setFilterWork] = useState(worksData);
-    const [activeFilter, setActiveFilter] = useState('All');
+    const [activeFilter, setActiveFilter] = useState('Tất cả');
     const [animate, setAnimate] = useState(false);
 
     const handleWorkFilter = (item) => {
@@ -34,7 +34,7 @@ function Portfolio() {
         setAnimate(true);
 
         setTimeout(() => {
-        const filtered = item === 'All' ? worksData : worksData.filter((work) => work.tags.includes(item));
+        const filtered = item === 'Tất cả' ? worksData : worksData.filter((work) => work.tags.includes(item));
         setFilterWork(filtered);
         setAnimate(false); // Kết thúc animation sau khi filter hoàn tất
         }, 300); // Thời gian trễ tương ứng với thời gian của animation
@@ -45,7 +45,7 @@ function Portfolio() {
             <h2 className={cx('section__title')}>Sản phẩm</h2>
 
             <div className={cx('container', 'app__work-filter')}>
-                {['Web App', 'React JS', 'All'].map((item, index) => (
+                {['Trang 1', 'Trang 2', 'Tất cả'].map((item, index) => (
                     <div
                         key={index}
                         onClick={() => handleWorkFilter(item)}
@@ -64,7 +64,10 @@ function Portfolio() {
 
                         <div className={cx('app__work-content', 'app__flex')}>
                             <h4 className={cx('bold-text')}>{work.title}</h4>
-                            <p className={cx('p-text', 'work__subtitle')}>{work.description}</p>
+                            <a target='_blank' href={work.projectLink} className={cx('app__work-btn')}>
+                                <i className={cx('uil', 'uil-globe', 'app__work-icon')}/>
+                                <span className={cx('app__work-subtitle')}>Website</span>
+                            </a>
 
                             <div className={cx('app__work-tag', 'app-flex')}>
                                 <p className={cx('p-text')}>{work.tags[0]}</p>

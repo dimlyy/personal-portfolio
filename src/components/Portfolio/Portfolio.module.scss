@@ -4,6 +4,7 @@
     inherits: false;
 }
 .Portfolio {
+    z-index: 0;
     background-color: var(--body-color);
 
     .app__work-filter {
@@ -185,9 +186,29 @@
     .work__subtitle{
         margin-top: var(--mb-1);
     }
+
+    .app__work-btn{
+        color: var(--container-color);
+        background-color: var(--title-color);
+        border-radius: 0.6rem;
+        padding: 0.5rem 1rem;
+        border: 1px solid var(--border-color);
+        margin-top: var(--mb-0-5);
+
+        &:hover {
+            background-color: var(--title-color-dark);
+        }
+    }
+
+    .app__work-icon {
+        margin-right: var(--mb-0-5);
+    }
+
     
     h4 {
-        margin-top: 1rem;
+        font-size: var(--h3-font-size);
+        color: var(--title-color);
+        margin-top: 0.5rem;
         line-height: 1.5;
     
         @media screen and (min-width: 2000px) {
@@ -196,11 +217,17 @@
     }
     
     .app__work-tag {
+        font-weight: var(--font-medium);
         position: absolute;
         padding: 0.5rem 1rem;
         border-radius: 10px;
         background-color: var(--container-color);
         top: -25px;
+    }
+
+    .p-text{
+        font-size: var(--small-font-size);
+        font-weight: 500;
     }
     }    
 }
